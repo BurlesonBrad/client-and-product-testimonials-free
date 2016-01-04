@@ -1,0 +1,26 @@
+{
+	"name": "Client and Product Testimonials Lite",
+    "description": "Display beautiful client or product testimonials on your site with ease using this simple to manage plugin.",
+    "keywords": ["client", "product", "testimonial", "testimonials", "clients", "products", "WordPress", "wp" ],
+    "homepage": "http://packagist.org/",
+    "type": "wordpress-plugin",
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "EH Dev Shop",
+            "email": "evan.m.herman@gmail.com",
+            "homepage": "https://www.evan-herman.com"
+        },
+    ],
+    "support": {
+          "email": "evan.m.herman@gmail.com"
+    },
+    "require": {
+        "php": ">=5.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.5.*",
+        "wp-coding-standards/wpcs": "dev-master",
+        "codeclimate/php-test-reporter": "dev-master"
+    }
+}
