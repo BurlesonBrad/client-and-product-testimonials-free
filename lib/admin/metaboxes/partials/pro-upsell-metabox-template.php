@@ -3,19 +3,19 @@
 		// limited time discount code banner
 		array(
 			'banner' => Client_Product_Testimonials_URL . 'lib/images/upsell-banner-templates/limited-time-code.jpg',
-			'url' => esc_url( 'https://www.evan-herman.com/wordpress-plugin/client-product-testimonials/' ),
+			'url' => esc_url( 'https://www.evan-herman.com/wordpress-plugin/client-product-testimonials/?utm_source=capt_plugin&utm_medium=banner&utm_campaign=upsell_sidebar' ),
 			'alt' => __( 'Upgrade Now!', 'client-and-product-testimonials' )
 		),
 		// front end submission form banner
 		array(
 			'banner' => Client_Product_Testimonials_URL . 'lib/images/upsell-banner-templates/frontend-submission-form.jpg',
-			'url' => esc_url( 'http://captpro.evan-herman.com/examples/testimonial-submission-form/' ),
+			'url' => esc_url( 'http://captpro.evan-herman.com/examples/testimonial-submission-form/?utm_source=capt_plugin&utm_medium=banner&utm_campaign=upsell_sidebar' ),
 			'alt' => __( 'Upgrade Now!', 'client-and-product-testimonials' )
 		),
 		// try it now banner
 		array(
 			'banner' => Client_Product_Testimonials_URL . 'lib/images/upsell-banner-templates/try-it-now-banner.jpg',
-			'url' => esc_url( 'http://captpro.evan-herman.com/' ),
+			'url' => esc_url( 'http://captpro.evan-herman.com/?utm_source=capt_plugin&utm_medium=banner&utm_campaign=upsell_sidebar' ),
 			'alt' => __( 'Try It Now!', 'client-and-product-testimonials' ),
 		),
 	);

@@ -70,15 +70,18 @@
 				</div>
 				
 				<div class="hidden-section grid">
-					<h3>Pro Only</h3>
+					<h3>Testimonial Grid</h3>
+					<p class="description"><?php printf( __( 'The %s is only available in the pro version.', 'client-and-product-testimonials' ), '<a href="http://captpro.evan-herman.com/testimonial-grid/" target="_blank">testimonial grid</a>' ); ?></p>
 				</div>
 				
 				<div class="hidden-section thumbnail-slider">
-					<h3>Pro Only</h3>
+					<h3>Testimonial Thumbnail Slider</h3>
+					<p class="description"><?php printf( __( 'The %s is only available in the pro version.', 'client-and-product-testimonials' ), '<a href="http://captpro.evan-herman.com/examples/testimonial-thumbnail-slider/" target="_blank">testimonial thumbnail slider</a>' ); ?></p>
 				</div>
 				
 				<div class="hidden-section submission-form">
-					<h3>Pro Only</h3>
+					<h3>Front End Submission Form</h3>
+					<p class="description"><?php printf( __( 'The %s is only available in the pro version.', 'client-and-product-testimonials' ), '<a href="http://captpro.evan-herman.com/examples/testimonial-submission-form/" target="_blank">front end submission form</a>' ); ?></p>
 				</div>
 				
 			</section>
