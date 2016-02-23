@@ -1,4 +1,4 @@
-# Client and Product Testimonials Pro
+# Client and Product Testimonials
 Easy client and product testimonials for all WordPress sites
 
 
