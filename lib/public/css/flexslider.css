@@ -83,6 +83,7 @@ html[xmlns] .flexslider .slides {
   border-radius: 4px;
   -o-box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);
   box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);
+  overflow: visible;
 }
 .widget_capt_fade_slider_widget .flexslider {
 	background: transparent;

@@ -322,8 +322,8 @@ function eh_get_testimonial_details( $post_id ) {
 	$options = Client_and_Product_Testimonials::get_cat_options();
 	$selected_taxonomy = get_the_terms( get_the_ID(), str_replace( '_', '-', $options['_client_and_product_testimonial_taxonomy'] ) );
 	if( $options['_client_and_product_testimonial_taxonomy'] == 'testimonial_clients' ) { 
-		$client_name = ( ( ! is_wp_error( $selected_taxonomy ) && ! empty( $selected_taxonomy ) ) ? $selected_taxonomy[0]->name : '' ); // client name (eg. Yikes inc.)
-		$client_position = ( ( get_post_meta( get_the_ID(), '_testimonial_details_client_position', true ) != '' ) ? ' ' . apply_filters( 'client_and_product_testimonial_position_divider', '/' ) . ' ' . get_post_meta( get_the_ID(), '_testimonial_details_client_position', true ) : '' );
+		$client_name = ( ( ! is_wp_error( $selected_taxonomy ) && ! empty( $selected_taxonomy ) ) ? $selected_taxonomy[0]->name . apply_filters( 'client_and_product_testimonial_position_divider', ' / ' ) : '' ); // client name (eg. Yikes inc.)
+		$client_position = ( ( get_post_meta( get_the_ID(), '_testimonial_details_client_position', true ) != '' ) ? get_post_meta( get_the_ID(), '_testimonial_details_client_position', true ) : '' );
 		$thing_reviewed_schema_markup = '<span class="capt_item_reviewed_schema_markup"><span>' . get_bloginfo( 'name' ) . '</span></span>';
 	} else {
 		$client_name = ''; // product name shouldn't be displayed, no point in listing the product below the users name

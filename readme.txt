@@ -3,8 +3,8 @@ Contributors: eherman24
 Donate link: https://www.evan-herman.com/contact/
 Tags: client, product, testimonial, testimonials, products, clients, video, testimonial, youtube, vimeo
 Requires at least: 4.0
-Tested up to: 4.4.1
-Stable tag: 1.0
+Tested up to: 4.4.2
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -19,15 +19,18 @@ You can create as many products/clients as needed and assign your testimonials t
 Client and Product Testimonials is highly extensible as we've built in a ton of hooks and filters for developers to take advantage of.
 
 3 Included Shortcodes:
+
 *   `[testimonial-fade-slider]` - A simple but beautiful testimonial slider.
 *   `[testimonial-full-width]` - Display a single testimonial in a full width container. Set to random on each load, or display a single testimonial each time.
 *   `[testimonial-list]` - Display your testimonials in list form. You have the ability to specify a 1/2/3 or 4 column display.
 
 2 Included Widgets:
+
 *	List Widget - Display a single column list of testimonials in your sidebar or any widgetized area of your site.
 *	Slider Widget - Display a simple slider in your sidebar or any widgetized area of your site.
 
 Additional Features:
+
 *	Multiple image styles - included fade to color on hover
 *	Powerful shortcode generator
 *	Toggle testimonials between pending review and live on your site
@@ -66,6 +69,10 @@ Visit [our Knowledge Base](http://captpro.evan-herman.com/documentation/?utm_sou
 
 The free version does not support video testimonials, but our pro version allows you to convert any of your existing (or new) testimonials into video testimonials. You have the ability to use either YouTube or Vimeo links, and can even customize the player a bit. <a hreef="http://captpro.evan-herman.com/?utm_source=plugin-repo&utm_medium=link&utm_campaign=readme">Check out</a> some of the features.
 
+= Can I use another icon other than the included stars? =
+
+Yes! We've included filters to allow you to use whatever icons you want. Take a look at the following <a href="http://captpro.evan-herman.com/documentation/how-do-i-use-my-own-icons-for-the-ratings/?utm_source=plugin-repo&utm_medium=link&utm_campaign=readme">knowledge base article</a> on how to achieve what you are after.
+
 = Do you have additional hooks and filters that developers can make use of? =
 
 Indeed we do. From the inception of this plugin we wanted to make things extensible for those times you need to make something special happen. Take a look at our <a href="http://captpro.evan-herman.com/documentation/?utm_source=plugin-repo&utm_medium=link&utm_campaign=readme">documentation</a> for a full list of hooks and filters and how to use them. This list will grow and continue to be fleshed out in future.
@@ -100,10 +107,21 @@ Yes! We've setup a demo site where users can create testimonials and play around
 
 == Changelog ==
 
+= 1.0.1 - February 23rd 2016 =
+* Change redirect location on activation.
+* Set flexslider overflow to visible (some themes were hiding the controls)
+* Set the divider between the client name & company position to hidden when no client was assigned.
+
+
 = 1.0 - January 9th, 2016 =
 * Initial Realease
 
 == Upgrade Notice ==
+
+= 1.0.1 - February 23rd 2016 =
+* Change redirect location on activation.
+* Set flexslider overflow to visible (some themes were hiding the controls)
+* Set the divider between the client name & company position to hidden when no client was assigned.
 
 = 1.0 - January 9th, 2016 =
 * Initial Realease

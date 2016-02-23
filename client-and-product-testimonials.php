@@ -4,7 +4,7 @@
 Plugin Name: Client and Product Testimonials Lite
 Plugin URI: https://www.evan-herman.com
 Description: Easily create powerful client and product testimonials for your site.
-Version: 1.0
+Version: 1.0.1
 Author: Evan Herman, EH Dev Shop
 Author URI: https://www.evan-herman.com
 License: GPL3
@@ -207,7 +207,7 @@ class Client_and_Product_Testimonials {
 			if ( trim( get_option( 'client_and_product_testimonials_license_key', '' ) ) == '' && get_option( 'client_and_product_testimonials_activation_redirect' , false ) ) {
 				delete_option( 'client_and_product_testimonials_activation_redirect' );
 				// redirect to settings page
-				wp_redirect( esc_url_raw( admin_url( 'edit.php?post_type=testimonial&page=client-and-product-testimonial-support' ) ) );
+				wp_redirect( esc_url_raw( admin_url( 'edit.php?post_type=testimonial&page=cat_options' ) ) );
 				exit;
 			}
 		}
